@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div>
+            <h1>Конвертер градус в фаренгейт</h1>
+            <input type="number" id="text" oninput="convertCelsiusToFahrengate(event)" placeholder="Цельсия"> =
+            <input type="number" id="fahren" oninput="convertFahrengateToCelsius(event)" placeholder="Фаренгейт">
+
+        </div>
+        <div>
+            <h1>Конвертер минут в секунды</h1>
+            <input type="number" id="minute" oninput="convertMinToSec(event)" placeholder="Минута"> =
+            <input type="number" id="sec" oninput="convertSecToMin(event)" placeholder="Секунда">
+        </div>
+        <div>
+            <h1>конвертер километр в метр</h1>
+            <input type="number" id="kilometer" oninput="convertKmToMeter(event)" placeholder="Километр"> =
+            <input type="number" id="meter" oninput="convertMeterToKm(event)" placeholder="метр">
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
